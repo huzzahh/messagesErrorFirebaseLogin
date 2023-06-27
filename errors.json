@@ -1,12 +1,44 @@
 {
   "friendlyErrorsFirebase": [
     {
-      "auth/user-not-found": "auth/user-not-found",
-      "message": "endereço de e-mail que não está associado a uma conta no Firebase"
+      "error": "auth/user-not-found",
+      "message": "Endereço de e-mail não encontrado ou não associado a uma conta existente."
     },
     {
-      "auth/wrong-password": "auth/wrong-password",
-      "message": "senha incorreta"
+      "error": "auth/wrong-password",
+      "message": "Senha incorreta. Por favor, verifique sua senha e tente novamente."
+    },
+    {
+      "error": "auth/invalid-email",
+      "message": "E-mail inválido. Por favor, verifique o endereço de e-mail e tente novamente."
+    },
+    {
+      "error": "auth/user-disabled",
+      "message": "Este usuário foi desativado. Entre em contato com o suporte para obter assistência."
+    },
+    {
+      "error": "auth/too-many-requests",
+      "message": "Excesso de tentativas de login. Por favor, aguarde um momento antes de tentar novamente."
+    },
+    {
+      "error": "auth/network-request-failed",
+      "message": "Ocorreu um erro de rede. Por favor, verifique sua conexão e tente novamente."
+    },
+    {
+      "error": "auth/operation-not-allowed",
+      "message": "Método de autenticação não permitido. Entre em contato com o suporte para obter assistência."
+    },
+    {
+      "error": "auth/email-already-in-use",
+      "message": "Este endereço de e-mail já está em uso por outra conta. Por favor, use um e-mail diferente."
+    },
+    {
+      "error": "auth/operation-not-supported-in-this-environment",
+      "message": "Este recurso de autenticação não é suportado nesta plataforma. Por favor, verifique se você está usando a plataforma correta."
+    },
+    {
+      "error": "auth/captcha-check-failed",
+      "message": "A verificação do reCAPTCHA falhou. Tente novamente ou entre em contato com o suporte."
     }
   ]
 }
